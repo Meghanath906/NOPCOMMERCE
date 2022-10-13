@@ -1,0 +1,27 @@
+1665595091490	geckodriver	INFO	Listening on 127.0.0.1:57960
+1665595094578	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57961" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\megha\\AppData\\Local\\Temp\\rust_mozprofileFYKNeR"
+1665595095408	Marionette	INFO	Marionette enabled
+1665595095417	Marionette	INFO	Listening on port 57971
+Read port: 57971
+WebDriver BiDi listening on ws://127.0.0.1:57961
+1665595095668	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\megha\\AppData\\Local\\Temp\\rust_mozprofileFYKNeR\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57961/devtools/browser/dd613877-12f2-4cc8-a3ed-13bff656356f
+1665595100653	Marionette	INFO	Stopped listening on port 57971
+1665595101492	geckodriver	INFO	Listening on 127.0.0.1:57993
+1665595104588	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "57994" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\megha\\AppData\\Local\\Temp\\rust_mozprofile8bOkwd"
+1665595104965	Marionette	INFO	Marionette enabled
+1665595104970	Marionette	INFO	Listening on port 58003
+Read port: 58003
+WebDriver BiDi listening on ws://127.0.0.1:57994
+1665595105107	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\megha\\AppData\\Local\\Temp\\rust_mozprofile8bOkwd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57994/devtools/browser/131eddca-1d42-4bd4-b3a4-0998243252b0
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://admin-demo.nopcommerce.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://admin-demo.nopcommerce.com."
+1665595109983	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:236:24
+TimedPromise@chrome://remote/content/marionette/sync.js:221:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1665595112988	Marionette	INFO	Stopped listening on port 58003
